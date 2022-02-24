@@ -1,0 +1,46 @@
+/* --------------------------------------------------------
+Style Sheet for Minted4Ukraine
+
+version: 0.9
+last modified: 13.09.2021 by Christof Bauer
+author: Christof Bauer
+email: bauer.christof@gmail.com
+----------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+:root {
+  --color-ukraine-blue: #005bbc;
+  --color-ukraine-yellow: #ffd600;
+  --color-highlight: #C90076;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply font-extrabold border-b-2 border-ukraine-blue;
+}
+
+.mobile-menu .active {
+  @apply font-extrabold text-ukraine-blue border-ukraine-blue bg-ukraine-yellow  ;
+}
+
+.link {
+  @apply underline outline-none transition-all duration-300;
+}
+
+.link:hover {
+  @apply no-underline rounded transition-all duration-500 text-black bg-ukraine-yellow  ; 
+}
+
+.button {
+  @apply bg-ukraine-blue text-ukraine-yellow border-ukraine-blue py-4 px-8 rounded shadow-lg transition-all cursor-pointer
+    hover:shadow-none hover:text-white
+    focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.connect-button {
+  @apply px-4 py-2 border bg-ukraine-yellow hover:bg-ukraine-blue hover:text-ukraine-yellow border-ukraine-yellow text-ukraine-blue transition-all;
+}
