@@ -38,7 +38,7 @@ const Contact = () => {
       <h1>Contact</h1>
       <h2>We are excited to hear from you!</h2>
 
-      <div className='px-4 pt-8 pb-0 sm:px-12 mt-6 shadow w-full rounded-lg bg-white/10 backdrop-blur-md text-left text-brand-dark'>
+      <div className='px-4 pt-8 sm:px-12 mt-6 shadow w-full rounded-lg bg-white/10 backdrop-blur-md text-left text-brand-dark'>
         <form onSubmit={submitForm}>
 
           <div className='relative mb-8'>

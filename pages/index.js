@@ -6,6 +6,7 @@ import Sponsors from '../components/Sponsors'
 import Contact from '../components/Contact'
 import { connectToDatabase } from "../lib/mongodb"
 import News from '../components/News'
+import Charity from '../components/Charity'
 
 const Minted4Ukraine = ({ articles }) => {
   return (
@@ -32,6 +33,7 @@ const Minted4Ukraine = ({ articles }) => {
         <NFTs />
         <Sponsors />
         <Contact />
+        <Charity />
         <News articles={articles} />
       </div>
     </div>
