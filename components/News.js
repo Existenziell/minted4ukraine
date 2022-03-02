@@ -1,6 +1,6 @@
 const News = ({ articles }) => {
   return (
-    <div className="mt-24">
+    <div>
       <h1>News</h1>
       <h2>Critical updates on the current crisis in Ukraine.</h2>
       <ul>
