@@ -6,15 +6,10 @@ import Donate from '../components/Donate'
 import NFTs from '../components/NFTs'
 import Sponsors from '../components/Sponsors'
 import Contact from '../components/Contact'
-// import getPostTitles from '../lib/crawler'
-import { useEffect } from 'react'
 
 const Minted4Ukraine = () => {
 
-  useEffect(() => {
-    // getPostTitles()
-    // .then((postTitles) => console.log(postTitles));
-  }, [])
+
 
   return (
     <div>
