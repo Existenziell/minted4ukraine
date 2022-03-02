@@ -12,23 +12,23 @@ const Minted4Ukraine = ({ articles }) => {
   return (
     <div>
       <section className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover bg-flag">
-        <div className="p-5 text-4xl text-white bg-black bg-opacity-50 rounded">
+        <div className="p-5 text-4xl text-white bg-ukraine-blue bg-opacity-70 rounded">
           Minted4Ukraine
         </div>
       </section>
 
-      <div className="max-w-2xl m-auto p-4 md:px-8">
+      <div className="max-w-2xl m-auto px-8 pb-12">
         <About />
         <Partners />
       </div>
 
       <section className="flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover bg-statue">
-        <div className="p-5 text-2xl text-white bg-ukraine-blue bg-opacity-50 rounded">
+        <div className="p-5 text-2xl text-white bg-ukraine-blue bg-opacity-70 rounded">
           NFTs for Peace
         </div>
       </section>
 
-      <div className="max-w-2xl m-auto p-4 md:px-8">
+      <div className="max-w-2xl m-auto px-8">
         <Donate />
         <NFTs />
         <Sponsors />
