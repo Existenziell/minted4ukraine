@@ -74,7 +74,7 @@ const Exchange = () => {
     return (
       <>
         <p className='text-lg'>We operate on the Polygon Mumbai Testnet (80001).<br />Please change your network to proceed.</p>
-        <p className='mt-2 text-sm'><a href='https://blog.pods.finance/guide-connecting-mumbai-testnet-to-your-metamask-87978071aca8' target='_blank' className='link'>This</a> article can help with that.</p>
+        <p className='mt-2 text-sm'><a href='https://blog.pods.finance/guide-connecting-mumbai-testnet-to-your-metamask-87978071aca8' target='_blank' rel="noreferrer" className='link'>This</a> article can help with that.</p>
       </>
     )
 
