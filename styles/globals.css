@@ -19,6 +19,18 @@ email: bauer.christof@gmail.com
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+  @apply text-4xl mb-8 border-b border-ukraine-yellow;
+}
+
+h2 {
+  @apply text-xl mb-4;
+}
+
+p, li {
+  @apply mb-4 leading-relaxed;
+}
+
 .active {
   @apply font-extrabold border-b-2 border-ukraine-blue;
 }

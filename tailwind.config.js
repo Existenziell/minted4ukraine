@@ -17,7 +17,8 @@ module.exports = {
         'highlight': '#C90076',
       },
       backgroundImage: {
-        ribbon: 'url(/icons/ribbon.svg)',
+        'flag': 'url(/emblem.jpg)',
+        'statue': 'url(/statue.jpg)',
       },
     },
   },
