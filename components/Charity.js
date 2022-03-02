@@ -36,8 +36,7 @@ const Charity = () => {
           <Image src='/charity/7.jpg' alt='Charity 7' width={1024} height={768} />
         </div>
       </div>
-
-      <video source='/charity/1.mp4' controls width="1024" className="mt-8" />
+      <video src="/charity/1.mp4" controls width="1024" className="mt-8" />
     </div>
   )
 }
