@@ -45,10 +45,9 @@ export async function getStaticProps(context) {
   const { db } = await connectToDatabase()
   let articles = await db
     .collection("news")
-    .find()
-    .toArray()
+    .findOne()
 
-  articles = JSON.parse(JSON.stringify(articles))
+  articles = JSON.parse(JSON.stringify(articles.data))
   return {
     props: { articles }
   }
