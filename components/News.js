@@ -6,7 +6,8 @@ const News = ({ articles }) => {
       <ul>
         {articles.map(a => {
           return (
-            <li key={a.text} className="mb-0">&rarr; <a href={`https://www.reuters.com${a.href}`} target='_blank' rel="noreferrer" className="link">{a.text}</a></li>
+            <li key={a.text} className="mb-2">
+              <span className="hidden md:inline">&rarr;</span> <a href={`https://www.reuters.com${a.href}`} target='_blank' rel="noreferrer" className="link">{a.text}</a></li>
           )
         })}
       </ul>

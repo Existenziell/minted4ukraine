@@ -40,6 +40,7 @@ const Minted4Ukraine = ({ articles }) => {
   )
 }
 
+// Get news articles from DB populated by Reuters scraper
 export async function getStaticProps(context) {
   const { db } = await connectToDatabase()
   let articles = await db
