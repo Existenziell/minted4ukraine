@@ -19,10 +19,9 @@ const Minted4Ukraine = ({ articles }) => {
 
       <div className="max-w-2xl m-auto px-8 pb-12">
         <About />
-        <Partners />
       </div>
 
-      <section className="flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover bg-statue">
+      <section className="flex items-center justify-center h-72 m-auto mb-12 bg-fixed bg-center bg-cover bg-statue">
         <div className="p-5 text-2xl text-white bg-ukraine-blue bg-opacity-70 rounded">
           NFTs for Peace
         </div>
@@ -36,6 +35,7 @@ const Minted4Ukraine = ({ articles }) => {
         <Charity />
         <News articles={articles} />
       </div>
+      <Partners />
     </div>
   )
 }

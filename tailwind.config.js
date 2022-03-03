@@ -19,6 +19,7 @@ module.exports = {
       backgroundImage: {
         'flag': 'url(/emblem.jpg)',
         'statue': 'url(/statue.jpg)',
+        'waves': 'url(/waves.svg)',
       },
     },
   },
