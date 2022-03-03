@@ -17,7 +17,7 @@ const Minted4Ukraine = ({ articles }) => {
         </div>
       </section>
 
-      <div className="m-auto px-8 pb-12">
+      <div className="max-w-2xl md:max-w-3xl m-auto px-8 pb-12">
         <About />
       </div>
 
