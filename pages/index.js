@@ -49,7 +49,8 @@ export async function getStaticProps(context) {
 
   articles = JSON.parse(JSON.stringify(articles.data))
   return {
-    props: { articles }
+    props: { articles },
+    revalidate: 60, // seconds
   }
 }
 
