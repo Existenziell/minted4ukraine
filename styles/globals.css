@@ -40,11 +40,11 @@ p, li {
 }
 
 .link {
-  @apply underline outline-none transition-all duration-300;
+  @apply outline-none transition-all duration-300;
 }
 
 .link:hover {
-  @apply no-underline rounded transition-all duration-500 text-black bg-ukraine-yellow  ; 
+  @apply no-underline rounded transition-all duration-500 text-black bg-ukraine-yellow px-2; 
 }
 
 .button {
