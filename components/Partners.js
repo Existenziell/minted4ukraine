@@ -1,6 +1,6 @@
 const Partners = () => {
   return (
-    <div className="mt-24">
+    <div className="my-24">
       {/* <h1>Partners</h1> */}
       <h3 className="text-center text-gray-500 mb-2">We are working with the following NGOs:</h3>
       {/* <div className="bg-gradient-to-b from-white to-black h-16"></div> */}
