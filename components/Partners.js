@@ -7,16 +7,16 @@ const Partners = () => {
 
       <ul className="text-gray-500 flex justify-between items-center max-w-2xl md:max-w-3xl mx-auto pt-4">
         <li className="flex flex-col justify-between items-center gap-2 basis-4/12 px-4 py-2">
-          <img src="/partners/care-white.png" alt="Care" width={100} />
-          <span>CARE</span>
+          <img src="/partners/care.png" alt="Care" width={120} />
+          <span className="hidden md:block">CARE</span>
         </li>
         <li className="flex flex-col justify-between items-center gap-2 basis-4/12 px-4 py-2">
           <img src="/partners/redcross.png" alt="Red Cross" width={60} />
-          <span>Red Cross of Ukraine</span>
+          <span className="hidden md:block">Red Cross of Ukraine</span>
         </li>
         <li className="flex flex-col justify-between items-center gap-2 basis-4/12 px-4 py-2">
-          <img src="/partners/chabad.png" alt="Care" width={100} />
-          <span>Chabad Jewesh Relief Fund</span>
+          <img src="/partners/chabad2.png" alt="Chabad" width={80} />
+          <span className="hidden md:block">Chabad Jewesh Relief Fund</span>
         </li>
       </ul>
     </div>
