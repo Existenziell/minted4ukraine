@@ -12,7 +12,7 @@ const Minted4Ukraine = ({ articles }) => {
   return (
     <div className='pb-32'>
       <section className="flex items-center justify-center h-56 sm:h-96 mb-12 bg-fixed sm:bg-center bg-contain sm:bg-cover bg-header shadow">
-        <div className="p-5 text-4xl text-ukraine-yellow text-center pt-44 bg-ukraine-blue bg-opacity-50 h-full w-full">
+        <div className="p-5 text-4xl text-ukraine-yellow text-center pt-24 sm:pt-44 bg-ukraine-blue bg-opacity-50 h-full w-full">
           Minted4Ukraine
         </div>
       </section>
