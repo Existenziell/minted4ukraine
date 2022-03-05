@@ -11,8 +11,8 @@ import Charity from '../components/Charity'
 const Minted4Ukraine = ({ articles }) => {
   return (
     <div>
-      <section className="flex items-center justify-center h-56 sm:h-screen mb-12 bg-fixed sm:bg-center bg-contain sm:bg-cover bg-flag">
-        <div className="p-5 text-4xl text-white bg-ukraine-blue bg-opacity-70 rounded">
+      <section className="flex items-center justify-center h-56 sm:h-96 mb-12 bg-fixed sm:bg-center bg-contain sm:bg-cover bg-header">
+        <div className="p-5 text-4xl text-white text-center pt-44 bg-ukraine-blue bg-opacity-50 h-full w-full">
           Minted4Ukraine
         </div>
       </section>
